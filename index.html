@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Tugas</title>
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <!--navigasi awal-->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div class="flex justify-between h-16">
+            <div class="flex-shrink-0 flex items-center">
+              <img class="h-8 w-auto" src="dist/Image/logo.svg" alt="Logo">
+            </div>
+            <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+              <a href="#" class="text-gray-900 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium">Beranda</a>
+              <a href="#" class="text-gray-900 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium">Tentang Kami</a>
+              <a href="#" class="text-gray-900 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium">Tamwil</a>
+              <a href="#" class="text-gray-900 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium">Baitul Maal</a>
+              <a href="#" class="text-gray-900 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium">Berita</a>
+              <a href="#" class="text-gray-900 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium">Karir</a>
+              <a href="#" class="text-gray-900 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium">Kontak</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- navigasi akhir -->
+    <!-- hero section start -->
+    <section class="mt-auto">
+        <div class="flex-wrap">
+          <img class="w-full h-full object-cover" src="dist/Image/Slider-Promo-Tanpa-DP.png" alt="Hero Image">
+        </div>
+    </section>
+    <!-- hero section end -->
+    <section class="py-0 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="lg:text-center">
+            <h2 class="text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              Simulasi Perhitungan Pembiayaan
+            </h2>
+            <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+              hasil perhitungan hanya perkiraan, untuk realasi sesuai dengan akad
+            </p>
+          </div>
+      
+          <div class="mt-10">
+            <form>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                  <label for="jumlah-pembiayaan" class="block text-lg font-medium text-gray-700">Jumlah Pembiayaan</label>
+                  <div class="mt-1">
+                    <input type="number" name="jumlah-pembiayaan" id="jumlah-pembiayaan" class="block w-full py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-lg" placeholder="0">
+                  </div>
+                </div>
+      
+                <div>
+                  <label for="margin" class="block text-lg font-medium text-gray-700">Margin/Ujroh % per bulan</label>
+                  <div class="mt-1">
+                    <input type="number" name="margin" id="margin" class="block w-full py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-lg" placeholder="contoh 1,2">
+                  </div>
+                </div>
+      
+                <div>
+                  <label for="jangka-waktu" class="block text-lg font-medium text-gray-700">Jangka Waktu (dalam bulan)</label>
+                  <div class="mt-1">
+                    <input type="number" name="jangka-waktu" id="jangka-waktu" class="block w-full py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-lg" placeholder="24">
+                  </div>
+                </div>
+      
+                <div>
+                  <label for="nominal-angsuran" class="block text-lg font-medium text-gray-700">Nominal Angsuran</label>
+                  <div class="mt-1">
+                    <input type="number" name="nominal-angsuran" id="nominal-angsuran" class="block w-full py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-lg">
+                  </div>
+                </div>
+      
+                     
+                <div class="sm:col-span-2">
+                  <button id="hasil" type="submit" class="py-3 px-4 inline-flex justify-center rounded-md bg-green-500">Hitung</button>
+                </div>
+          <!-- <section id="hero" class="pt-36">
+        <div class="container">
+            <div class="flex-wrap">
+                <h1><img src="" alt=""></h1>
+            </div>
+        </div>
+    </section> -->
+    <!-- hero section end -->
+    <script src="script.js"></script>
+</body>
+</html>

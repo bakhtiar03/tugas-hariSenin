@@ -1,0 +1,25 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: 0;
+border: none;
+text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgb(245, 249, 249);
+    }
+.menu{
+    color: black;  }
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    background-image: url(hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
